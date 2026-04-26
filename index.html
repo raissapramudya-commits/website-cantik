@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Digital Porotolio | Home</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #FFF0F5;
+            margin: 0;
+        }
+
+        header {
+            background-color: #F8C8DC;
+            color: #6b4c57;
+            text-align: center;
+            padding: 30px;
+            font-family: 'Playfair Display', serif;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        header p {
+            font-style: italic;
+        }
+
+        nav {
+            background-color: #ffb6c1;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #6b4c57;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .container {
+            width: 85%;
+            margin: 30px auto;
+        }
+
+        .content-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 20px;
+        }
+
+        .diary-card {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 20px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .diary-card h2 {
+            color: #ff69b4;
+            margin-bottom: 5px;
+        }
+
+        .date {
+            font-size: 12px;
+            color: gray;
+            margin-bottom: 10px;
+        }
+
+        .diary-card p {
+            text-align: justify;
+        }
+
+        /* GALLERY STYLE */
+        .content-gallery {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+        }
+
+        .content-gallery img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 15px;
+        }
+
+        footer {
+            background-color: #ffb6c1;
+            color: #6b4c57;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+            font-size: 14px;
+        }
+
+        @media (max-width: 768px) {
+            .content-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>My Digital Portofolio 🌸</h1>
+    <p>welcome to my little world</p>
+</header>
+
+<nav>
+    <a href="index.html">Beranda</a>
+    <a href="profil.html">Profil</a>
+    <a href="video.html">Video</a>
+    <a href="project.html">My Project</a>
+</nav>
+
+<div class="container">
+
+    <div class="content-grid">
+
+        <!-- KIRI: DIARY -->
+        <div>
+
+            <div class="diary-card">
+                <h2>🌷 Welcome</h2>
+                <p class="date">a little note</p>
+                <p>
+                    Haii! Selamat datang di digital portofolioku! ✨  
+                    Website ini aku buat sebagai tempat untuk menyimpan cerita, pengalaman, dan hasil belajarku selama Ujian Praktik Terintegrasi.
+                </p>
+            </div>
+
+            <div class="diary-card">
+                <h2>📖 About This Space</h2>
+                <p class="date">what is this?</p>
+                <p>
+                    Di sini, aku menuangkan berbagai hal yang sudah aku pelajari,
+                    terutama dalam bentuk video argumentasi yang aku buat sebagai bagian dari pembelajaran.
+                </p>
+            </div>
+
+            <div class="diary-card">
+                <h2>🎯 My Purpose</h2>
+                <p class="date">why I made this</p>
+                <p>
+                    Tujuan dari website ini adalah untuk menunjukkan proses belajarku,
+                    sekaligus melatih kemampuanku dalam membuat website sederhana menggunakan HTML.
+                </p>
+            </div>
+
+            <div class="diary-card">
+                <h2>💡 My Topic</h2>
+                <p class="date">what I talk about</p>
+                <p>
+                    <i>Internship Curriculum sebagai jembatan antara pendidikan dan dunia kerja.</i>
+                </p>
+            </div>
+
+            <div class="diary-card">
+                <h2>🌙 My Hope</h2>
+                <p class="date">a wish</p>
+                <p>
+                    Aku berharap pendidikan bisa lebih berkembang dengan adanya program internship,
+                    agar siswa bisa lebih siap menghadapi dunia kerja di masa depan.
+                </p>
+            </div>
+
+            <div class="diary-card">
+                <h2>💗 Reflection</h2>
+                <p class="date">what I learned</p>
+                <p>
+                    Pengalaman internship ini membuatku lebih memahami dunia kerja secara nyata.
+                    Aku merasa menjadi pribadi yang lebih siap dan berkembang.
+                    Harapanku, program ini bisa terus berkembang dan menjadi inspirasi bagi banyak sekolah di Indonesia.
+                </p>
+            </div>
+
+        </div>
+
+        <!-- KANAN: PHOTO DIARY -->
+        <div class="diary-card">
+            <h2>📸 My Little Moments</h2>
+            <p class="date">snapshots</p>
+
+            <div class="content-gallery">
+                <img src="Dailyjournal.jpeg">
+                <img src="gambar.jpg">
+                <img src="elelmatcha.png">
+                <img src="flowers.png">
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<footer>
+    <p>made with ♡ by Raissa Eldira | 2026</p>
+</footer>
+
+</body>
+</html>
